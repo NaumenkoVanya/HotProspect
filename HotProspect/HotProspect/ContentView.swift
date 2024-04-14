@@ -17,8 +17,11 @@ struct ContentView: View {
         if selection.isEmpty == false {
             Text("You secection \(selection.formatted())")
         }
-        
+        Image("test")
+            .resizable()
+            .scaledToFit()
     }
+    
 }
 
 #Preview {
